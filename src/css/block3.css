@@ -1,0 +1,375 @@
+.hard {
+    margin: 100px 0 0 0;
+    display: flex;
+    width: 94.6%;
+    padding: 0 2.7%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.hard div {
+    position: relative;
+    width: 49%;
+}
+
+.hard div img {
+    width: 100%;
+}
+
+.noline1 {
+
+
+    height: 0;
+    transition: .7s;
+}
+
+.noline {
+
+    width: 0;
+    transition: .7s;
+}
+
+.line1 {
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    width: 95%;
+    position: absolute;
+    top: 4%;
+    left: 2.5%;
+    transition: .7s;
+}
+
+.line2 {
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    width: 95%;
+    position: absolute;
+    bottom: 4%;
+    right: 2.5%;
+    transition: .7s;
+}
+
+.line3 {
+    background-color: rgb(255, 255, 255);
+    height: 92%;
+    width: 1px;
+    position: absolute;
+    bottom: 4%;
+    right: 2.5%;
+    transition: .7s;
+}
+
+.line4 {
+    background-color: rgb(255, 255, 255);
+    height: 92%;
+    width: 1px;
+    position: absolute;
+    bottom: 4%;
+    left: 2.5%;
+    transition: .7s;
+}
+
+h1 {
+    font-size: 34px;
+    margin: 100px auto 10px;
+    width: fit-content;
+}
+
+h2 {
+    font-size: 14px;
+    width: fit-content;
+    margin: auto;
+}
+
+.coment {
+    width: fit-content;
+    margin: 50px auto 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.block2223 {
+    margin: 90px 180px 0;
+}
+
+.block2223 img {
+    width: 140px;
+}
+
+
+
+.block2233 {
+    margin: 90px 180px;
+}
+
+.block2233 img {
+    width: 372px;
+}
+
+
+.indextxt31 {
+    margin: auto;
+
+    background: url(https://htmldemo.net/boyka/boyka/assets/images/icon/title-bg-2.png) 50% 100% no-repeat;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.indextxt36 {
+    margin: auto;
+
+    background: url(https://htmldemo.net/boyka/boyka/assets/images/icon/title-bg-2.png) 50% 100% no-repeat;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.zagolovok {
+    line-height: 30px;
+    padding: 20px 0 7px;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 400;
+    position: relative;
+    display: block;
+}
+
+.time {
+    font-size: 13px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.more {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 0 0 0;
+    padding: 0 20px 0 0;
+}
+
+.vse * {
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+
+
+
+.zagolovok:hover {
+    color: #8a8f6a;
+    transition: .4s;
+}
+
+.blackcont {
+    background-image: url(https://htmldemo.net/boyka/boyka/assets/images/bg/02.jpg);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+}
+
+.orimg img {
+    width: 72px;
+}
+
+.orimg {
+    width: 92px;
+    height: 92px;
+    margin: 40px auto 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conttt {
+    width: 42%;
+    margin: auto;
+}
+
+.orl {
+    margin: 0px auto 60px;
+}
+
+.swiper-pagination-bullet {
+    background-color: aliceblue;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #8a8f6a;
+}
+
+.prelast {
+    margin: 100px 0px;
+}
+
+.massivimg {
+    position: relative;
+    width: 380px;
+    height: 355px;
+    ;
+    overflow: hidden;
+    transition: .4s;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    z-index: 11;
+    transition: .4s;
+
+}
+
+.massivimg img {
+    transition: .4s;
+}
+
+.massivimg:hover img {
+    width: 108%;
+
+    transition: .4s;
+}
+
+.massivtext {
+    cursor: pointer;
+    padding: 0 33px;
+    position: absolute;
+    z-index: 11;
+    padding: 0px 33px;
+    line-height: 61px;
+    background: #fff;
+    font-weight: 500;
+    color: #323232;
+    font-size: 14px;
+    transition: .4s;
+
+    height: fit-content;
+}
+
+.massivtext:hover {
+    background-color: #8a8f6a;
+    position: absolute;
+    color: #fff;
+    transition: .5s;
+}
+
+.last {
+    
+    display: flex;
+    width: fit-content;
+    margin:0 auto 70px;
+    flex-wrap: wrap;
+}
+
+.lastcont {margin-right: 20px;
+    display: flex;
+}
+
+.lasttxt {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.lasttxt2 {
+    font-family: "Poppins", sans-serif;
+    line-height: 26px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+    color: #191919;
+    max-width: 235px;
+}
+
+.lastblock {
+    display: flex;
+    margin-right: 20px;
+    font-size: 28px; 
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:416px) {
+    .hard {
+        margin: 60px 0 0 0;
+        display: flex;
+        width: 94.6%;
+        padding: 0 2.7%;
+        position: relative;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .conttt {
+        width: 82%;
+        margin: auto;
+    }
+
+    .hard div {
+        position: relative;
+        width: 99%;
+        margin: 15px 0;
+
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .block2223 {
+        margin: 20px 0;
+    }
+
+
+    .block2233 {
+        margin: 20px 10%;
+    }
+
+    .block2233 img {
+        width: 100%;
+    }
+
+}
