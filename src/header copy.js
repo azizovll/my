@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import './index.css';
-
 function Header1() {
   const [bool, setBool] = useState([0, 0, 0, 0]);
   const menuRefs = [useRef(null), useRef(null), useRef(null), useRef(null)]; // Ссылки на элементы меню
@@ -44,8 +43,8 @@ function Header1() {
               src="https://cdn.icon-icons.com/icons2/509/PNG/512/Facebook_icon-icons.com_49947.png" /> &nbsp; &nbsp;<img
               src="https://cdn-icons-png.flaticon.com/512/142/142372.png" /> &nbsp; &nbsp;<img
               src="https://cdn-icons-png.flaticon.com/512/1216/1216904.png" /> &nbsp; &nbsp;<img
-              src="https://seeklogo.com/images/Y/youtube-black-logo-B90F9C414C-seeklogo.com.png" />&nbsp; &nbsp;
-            <img src="https://assets.stickpng.com/images/5ecec78673e4440004f09e77.png" /></div>
+              src="https://seeklogo.com/images/Y/youtube-black-logo-B90F9C414C-seeklogo.com.png" />
+              &nbsp; &nbsp;&nbsp; &nbsp;</div>
         </div>
 
         <div className="h1-2" style={{ cursor: "pointer" }}>
