@@ -54,6 +54,12 @@ export default function Block3() {
           navigation={true}
           breakpoints={{
             428: {
+              slidesPerView: 1,
+            },
+            578: {
+              slidesPerView: 2,
+            },
+            769: {
               slidesPerView: 4,
             },
           }}
@@ -109,6 +115,9 @@ export default function Block3() {
           navigation={true}
           breakpoints={{
             428: {
+              slidesPerView: 3,
+            },
+            578: {
               slidesPerView: 5,
             },
           }}
@@ -142,6 +151,13 @@ export default function Block3() {
           navigation={true}
           breakpoints={{
             428: {
+              slidesPerView: 1,
+            },
+            578: {
+              slidesPerView: 2,
+            },
+            769: {
+              spaceBetween:20,
               slidesPerView: 3,
             },
           }}
@@ -200,6 +216,12 @@ export default function Block3() {
          breakpoints=
          {{
           428: {
+            slidesPerView: 2,
+               },
+          570: {
+            slidesPerView: 3,
+               },
+          769: {
             slidesPerView: 4,
                },
         }}

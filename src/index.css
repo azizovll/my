@@ -16,6 +16,7 @@ code {
 .h1-1 div {
   display: flex;
   align-items: center;
+  
 
 }
 
@@ -52,6 +53,8 @@ code {
   display: flex;
   gap: 35px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .h1-2 {
@@ -630,4 +633,142 @@ h6 {
   position: fixed;
   width: 100%;
   top: 80px;
+}
+
+
+@media (max-width:570px) {
+  
+
+
+
+
+
+  .laptop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .h1-1 {
+
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0 3px 0;
+  }
+
+  .header1 {
+    flex-direction: column;
+  }
+
+  .h1-2 {
+    order: -1;
+    justify-content: center;
+  }
+
+  .header1 img {
+    width: 16px;
+  }
+
+  .header1 {
+    padding: 10px 0;
+  }
+
+
+  .menu { 
+    right: auto;
+  }
+
+  .closed {
+    right: auto;
+  }
+
+  .menu1 {
+    
+    left: -193px;
+    width: 280px;
+  }
+
+  .closed1 {
+    left: -193px;
+    width: 280px;
+  }
+
+  .h2-1 img {
+    height: 30px;
+  }
+
+
+
+}
+
+@media (max-width:768px) {
+  .header2 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 4% 25px  2%;position: absolute;z-index: 12;
+    width: 94%;
+   
+  }
+
+
+  .laptop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .h1-1 {
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px auto;
+  }
+
+  .header1 {
+    flex-direction: column;
+  }
+
+  .h1-2 {
+    order: -1;
+    justify-content: center;
+  }
+
+  .header1 img {
+    width: 16px;
+  }
+
+  .header1 {
+    padding: 10px 0;
+  }
+
+
+  .menu { 
+    right: auto;
+  }
+
+  .closed {
+    right: auto;
+  }
+
+  .menu1 {
+    
+    left: -193px;
+    width: 280px;
+  }
+
+  .closed1 {
+    left: -193px;
+    width: 280px;
+  }
+
+  .h2-1 img {
+    height: 30px;
+  }
+
+
+
 }

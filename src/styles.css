@@ -39,16 +39,16 @@
     flex-direction: column;
     justify-content: center;
     height: 600px;
-    width: 700px;
+    max-width: 700px;
     align-items: flex-start;
-    margin: 0 0 0 200px;
+    /* margin: 0 0 0 200px; */
 
 }
 
 .slideblock h1 {
     font-size: 40px;
     text-transform: capitalize;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 50px;
     font-weight: 400;
     line-height: 1;
     color: #383838;
@@ -57,11 +57,12 @@
 
 .slideblock p {
     line-height: 24px;
-    margin: 10px 0 30px 0;
-    width: 40%;
+    margin: 10px 0 30px 50px;
+    width: 80%;
 }
 
 .slideblock button {
+    margin: 10px 0 30px 50px;
     cursor: pointer;
     background: #ffffff;
     color: #323232;
@@ -140,6 +141,86 @@ button:hover .swiper-button-next {
 
 
     .slideblock {
+
+        height: 400px;
+
+
+    }
+
+    .slidetxt2 {
+        height: 400px;
+        margin: 0 0 0 -330px;
+        background-size: 1100px 399px;
+    }
+
+    .slidetxt1 {
+        height: 400px;
+        margin: 0 0 0 -330px;
+        background-size: 1100px 399px;
+    }
+
+
+
+
+
+    .slideblock h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .slideblock {
+        margin: 0 0 0 370px;
+    }
+
+
+}
+
+@media (max-width:575px) {
+
+
+
+    .slideblock {
+
+        height: 400px;
+
+
+    }
+
+    .slidetxt2 {
+        height: 400px;
+        margin: 0 0 0 -330px;
+        background-size: 1100px 399px;
+    }
+
+    .slidetxt1 {
+        height: 400px;
+        margin: 0 0 0 -330px;
+        background-size: 1100px 399px;
+    }
+
+
+
+
+
+    .slideblock h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .slideblock {
+        margin: 0 0 0 370px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+  .slideblock *{margin-left: 1px !important;}
+
+    .slideblock  {
 
         height: 400px;
 

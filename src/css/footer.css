@@ -146,3 +146,51 @@ footer {
 
 
 }
+
+@media (max-width:574px) {
+    .footer2 {
+        padding: 10px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footermain1 {
+        width: 100%;
+    }
+
+    .footer1 {
+        padding: 100px 30px 80px 30px;
+        gap: 20px;
+    }
+
+    #footerbutton {
+        line-height: 26px;
+    }
+
+
+
+}
+
+@media (max-width:769px) {
+    .footer2 {
+        padding: 10px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footermain1 {
+        width: 100%;
+    }
+
+    .footer1 {
+        padding: 100px 30px 80px 30px;
+        gap: 20px;
+    }
+
+    #footerbutton {
+        line-height: 26px;
+    }
+
+
+
+}

@@ -272,14 +272,15 @@ h2 {
 }
 
 .last {
-    
+
     display: flex;
     width: fit-content;
-    margin:0 auto 70px;
+    margin: 0 auto 70px;
     flex-wrap: wrap;
 }
 
-.lastcont {margin-right: 20px;
+.lastcont {
+    margin-right: 20px;
     display: flex;
 }
 
@@ -304,7 +305,7 @@ h2 {
 .lastblock {
     display: flex;
     margin-right: 20px;
-    font-size: 28px; 
+    font-size: 28px;
     margin-bottom: 30px;
     margin-left: 20px;
 }
@@ -341,6 +342,135 @@ h2 {
         position: relative;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    .conttt {
+        width: 82%;
+        margin: auto;
+    }
+
+    .hard div {
+        position: relative;
+        width: 99%;
+        margin: 15px 0;
+
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .block2223 {
+        margin: 20px 0;
+    }
+
+
+    .block2233 {
+        margin: 20px 10%;
+    }
+
+    .block2233 img {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width:576px) {
+    .massivimg {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        overflow: hidden;
+        transition: .4s;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        z-index: 11;
+        transition: .4s;
+    }
+
+
+
+    .hard {
+        margin: 60px 0 0 0;
+        display: flex;
+        width: 94.6%;
+        padding: 0 2.7%;
+        position: relative;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .vse {
+        width: 360px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .conttt {
+        width: 82%;
+        margin: auto;
+    }
+
+    .hard div {
+        position: relative;
+        width: 99%;
+        margin: 15px 0;
+
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .block2223 {
+        margin: 20px 0;
+    }
+
+
+    .block2233 {
+        margin: 20px 10%;
+    }
+
+    .block2233 img {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width:769px) {
+    .massivimg {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        overflow: hidden;
+        transition: .4s;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        z-index: 11;
+        transition: .4s;
+    }
+
+
+
+    .hard {
+        margin: 60px 0 0 0;
+        display: flex;
+        width: 94.6%;
+        padding: 0 2.7%;
+        position: relative;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .vse {
+        margin: 10px;
+        
     }
 
     .conttt {

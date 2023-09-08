@@ -24,6 +24,12 @@ export default function App() {
           navigation={true}
           breakpoints={{
             428: {
+              slidesPerView: 2,
+            },
+            578: {
+              slidesPerView: 2,
+            },
+            769: {
               slidesPerView: 4,
             },
           }}

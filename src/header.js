@@ -76,7 +76,7 @@ function Header() {
             <div className="language" onClick={() => open(1)} ref={menuRefs[1]}>
               <div className="hovergrey">
                 <GoSearch />
-                <b className="laptop xxs">Search</b>&nbsp;&nbsp;
+                <b className="laptop xxs " id="planshet">Search</b>&nbsp;&nbsp;
               </div>
               <div className={bool[1] === 1 ? "menu1" : "closed1"} id="menu1">
                 <div>

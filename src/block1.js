@@ -33,11 +33,12 @@ export default function Block1() {
               modules={[Navigation]}
               loop
               slidesPerView={1}
-              spaceBetween={30}
               breakpoints={{
-                428: {
+                570: {
                   slidesPerView: 2,
-                },
+                }
+                
+
               }}
               className="mySwiper"
             >
